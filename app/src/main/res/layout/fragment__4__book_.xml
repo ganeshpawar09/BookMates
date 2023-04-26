@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="._4_Book_Fragment"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:queryHint="Search Book"
+        android:backgroundTint="#EEEEEE"
+        app:iconifiedByDefault="false"
+        android:layout_marginBottom="10dp"
+        ></androidx.appcompat.widget.SearchView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/book_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        ></androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468074563021",
+    "project_id": "bookmates-e7c6d",
+    "storage_bucket": "bookmates-e7c6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468074563021:android:7f3eb7360b5b635861b084",
+        "android_client_info": {
+          "package_name": "com.example.bookmates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468074563021-mvb9qfg0vc7be0rj85hjvgcms9lps0ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKEQgUld5YmP0WYtlUPe59iPbK0U2Ivqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468074563021-mvb9qfg0vc7be0rj85hjvgcms9lps0ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

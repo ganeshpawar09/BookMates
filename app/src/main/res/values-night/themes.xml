@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BookMates" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/action_bar</item>
+        <item name="colorPrimaryVariant">@color/action_bar</item>
+        <item name="colorOnPrimary">@color/action_bar</item>
+        <item name="android:statusBarColor">@color/action_bar</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+    <style name="Theme.BookMates1" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/action_bar</item>
+        <item name="colorPrimaryVariant">@color/action_bar</item>
+        <item name="colorOnPrimary">@color/action_bar</item>
+        <item name="android:statusBarColor">@color/action_bar</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+</resources>

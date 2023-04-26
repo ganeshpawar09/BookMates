@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="._11_Add_Books"
+    android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/preferred_flat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/fill_box"
+            android:hint="Preferred: eg. Male"
+            android:textColor="@color/Black"
+            android:textSize="17sp"></EditText>
+
+    <EditText
+        android:id="@+id/member_required_flat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/fill_box"
+        android:hint="Member Required"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColor="@color/Black"
+        android:textSize="17sp"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+
+        <EditText
+            android:id="@+id/rent_flat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/fill_box"
+            android:hint="Rent"
+            android:textColor="@color/Black"
+            android:inputType="number"
+            android:textSize="17sp"></EditText>
+
+
+    <EditText
+        android:id="@+id/bhk_flat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/fill_box"
+        android:hint="BHK"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textColor="@color/Black"
+        android:textSize="17sp"></EditText>
+
+    <EditText
+            android:id="@+id/furnished_flat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fill_box"
+            android:paddingLeft="10dp"
+            android:hint="Furnished"
+            android:textColor="@color/Black"
+            android:textSize="17sp"></EditText>
+
+
+        <EditText
+            android:id="@+id/location_flat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fill_box"
+            android:hint="Location"
+            android:textColor="@color/Black"
+            android:textSize="17sp"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/fill_box">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#808080"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:text="+91">
+        </TextView>
+        <EditText
+            android:id="@+id/mobile_number_flat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:inputType="phone"
+            android:hint="Enter Mobile Number"
+            android:paddingLeft="10dp"
+            android:maxLength="10"
+            android:textColor="@color/Black"
+            android:textSize="17sp"></EditText>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/flat_images"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/addimage"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/add_flat"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/box"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Add Flat"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        ></TextView>
+
+
+</LinearLayout>
